@@ -79,7 +79,7 @@ There are three levels of password validation policy:
 
 LOW    Length >= 8
 MEDIUM Length >= 8, numeric, mixed case, and special characters
-STRONG Length >= 8, numeric, mixed case, special characters and dictionary              file
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary file
 
 Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
 
@@ -127,3 +127,8 @@ flush privileges;
 # connexion php
 check the mysql port 
 netstat mysql -tulp
+
+# Redirect HTTP to HTTPS
+
+
+
